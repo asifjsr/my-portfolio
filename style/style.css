@@ -24,6 +24,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color:#757575
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -106,11 +109,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* About style */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .item-description{
     font-weight: bold;
@@ -118,4 +125,17 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+/* what i do sextion */
+.skill-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgb(0,0,0,0.06);
+
+
 }
